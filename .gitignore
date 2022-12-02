@@ -1,0 +1,5 @@
+node_modules
+input_*
+output_*
+clean_sources
+.DS_Store

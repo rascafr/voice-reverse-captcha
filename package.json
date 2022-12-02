@@ -1,0 +1,21 @@
+{
+  "name": "voice-reverse-captcha",
+  "version": "1.1.0",
+  "description": "Proof-of-concept in Node.js that solves WAV files voice captcha using FFT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "François Leparoux <rascafr@gmail.com>",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "cli-color": "^2.0.2",
+    "fft.js": "^4.0.4",
+    "node-fetch": "^3.2.6",
+    "node-wav": "0.0.2",
+    "nodeplotlib": "^1.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.5"
+  }
+}
