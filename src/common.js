@@ -2,9 +2,9 @@ import wav from 'node-wav';
 import FFT from 'fft.js';
 import fs from 'fs';
 
-export const CLASSIFIED_AUDIO_PATH = `./output_audio_clips/classified/`;
-export const UNCLASSIFIED_AUDIO_PATH = `./output_audio_clips/`;
-export const INPUT_AUDIO_PATH = `./input_audios/`;
+export const CLASSIFIED_AUDIO_PATH = `../output_audio_clips/classified/`;
+export const UNCLASSIFIED_AUDIO_PATH = `../output_audio_clips/`;
+export const INPUT_AUDIO_PATH = `../input_audios/`;
 
 export function getNearestPowerOfTwo(x) {
     const isPow2 = (n) => (n !== 0) && (n & (n - 1)) === 0;

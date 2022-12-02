@@ -10,7 +10,7 @@ const valid = clc.bgRed;
 const COLORS = [clc.greenBright, clc.yellowBright, clc.cyanBright, clc.blueBright, clc.redBright];
 
 const ts = new Date();
-const OUTPUT_TRAINING_DB_PATH = './fft_database.json';
+const OUTPUT_TRAINING_DB_PATH = '../db/fft_database.json';
 const TRAINING_LIMITS_FFT = {min: 8000, max: 11000};
 
 const INPUT_FILE = process.argv[2];

@@ -73,7 +73,7 @@ npm i
 ## Proof-of-concept
 
 ```bash
-node audio_reverse_captcha.js yourFile.wav
+node src/audio_reverse_captcha.js yourFile.wav
 # Captcha resolved! " xyz123 "
 ```
 
